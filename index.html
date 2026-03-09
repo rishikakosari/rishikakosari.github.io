@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Rishika | Portfolio</title>
 
 <link rel="stylesheet" href="style.css">
@@ -18,7 +18,7 @@
 
 <header>
 
-<h2 class="logo">Rishika</h2>
+<div class="logo">Rishika</div>
 
 <nav>
 <a href="#home">Home</a>
@@ -28,52 +28,96 @@
 <a href="#contact">Contact</a>
 </nav>
 
-<button id="dark">🌙</button>
-
 </header>
+
+<!-- HERO -->
 
 <section id="home" class="home">
 
 <div class="home-content">
 
-<h1>Hello, I'm Rishika</h1>
+<h1>Hello, I'm <span>Rishika</span></h1>
 
 <h3>I'm a <span class="typing"></span></h3>
 
-<p>A passionate Computer Science student interested in Problem Solving, Web Development and AI.</p>
+<p>
+CSE (AI & ML) student passionate about programming,
+problem solving and building web applications.
+</p>
 
-<a href="#" class="btn">Download Resume</a>
+<div class="buttons">
+
+<a href="resume.pdf" target="_blank" class="btn">View Resume</a>
+
+<a href="mailto:rishikaraj7263@gmail.com" class="btn">Email Me</a>
+
+</div>
 
 </div>
 
 </section>
+
+<!-- ABOUT -->
 
 <section id="about" data-aos="fade-up">
 
 <h2>About Me</h2>
 
 <p>
-I am a CSE (AI & ML) student passionate about coding, problem solving and building useful applications. I enjoy learning new technologies and improving my skills.
+
+I am a Computer Science student interested in Data Structures,
+Web Development and Artificial Intelligence.  
+I enjoy solving problems and learning new technologies.
+My goal is to build impactful software and continuously
+improve my technical skills.
+
 </p>
 
 </section>
 
-<section id="skills" data-aos="zoom-in">
+<!-- SKILLS -->
+
+<section id="skills" data-aos="fade-up">
 
 <h2>Skills</h2>
 
 <div class="skills">
 
-<div class="card">Java</div>
-<div class="card">Python</div>
-<div class="card">HTML</div>
-<div class="card">CSS</div>
-<div class="card">JavaScript</div>
-<div class="card">SQL</div>
+<div class="skill">
+<span>C / C++</span>
+<div class="bar"><div style="width:70%"></div></div>
+</div>
+
+<div class="skill">
+<span>Java</span>
+<div class="bar"><div style="width:75%"></div></div>
+</div>
+
+<div class="skill">
+<span>HTML</span>
+<div class="bar"><div style="width:80%"></div></div>
+</div>
+
+<div class="skill">
+<span>CSS</span>
+<div class="bar"><div style="width:70%"></div></div>
+</div>
+
+<div class="skill">
+<span>JavaScript</span>
+<div class="bar"><div style="width:60%"></div></div>
+</div>
+
+<div class="skill">
+<span>SQL</span>
+<div class="bar"><div style="width:65%"></div></div>
+</div>
 
 </div>
 
 </section>
+
+<!-- PROJECTS -->
 
 <section id="projects">
 
@@ -81,27 +125,36 @@ I am a CSE (AI & ML) student passionate about coding, problem solving and buildi
 
 <div class="projects">
 
-<div class="project-card" data-aos="flip-left">
+<div class="project-card" data-aos="zoom-in">
 
 <h3>Portfolio Website</h3>
 
-<p>Personal portfolio built using HTML CSS and JavaScript.</p>
+<p>
+Personal portfolio website built using HTML,
+CSS and JavaScript to showcase my work.
+</p>
 
 </div>
 
-<div class="project-card" data-aos="flip-left">
+<div class="project-card" data-aos="zoom-in">
 
-<h3>Student Database System</h3>
+<h3>Hot or Cold Game</h3>
 
-<p>Database management project using SQL.</p>
+<p>
+Interactive guessing game created using
+HTML CSS and JavaScript.
+</p>
 
 </div>
 
-<div class="project-card" data-aos="flip-left">
+<div class="project-card" data-aos="zoom-in">
 
-<h3>Problem Solving</h3>
+<h3>Quiz Website</h3>
 
-<p>Practicing DSA problems on coding platforms.</p>
+<p>
+Simple quiz web application using
+JavaScript and jQuery.
+</p>
 
 </div>
 
@@ -109,30 +162,51 @@ I am a CSE (AI & ML) student passionate about coding, problem solving and buildi
 
 </section>
 
+<!-- CONTACT -->
+
 <section id="contact" data-aos="fade-up">
 
-<h2>Contact</h2>
+<h2>Contact Me</h2>
 
-<p>Email: rishika@email.com</p>
+<p>Email: 
+<a href="mailto:rishikaraj7263@gmail.com">
+rishikaraj7263@gmail.com
+</a>
+</p>
 
-<p>GitHub: github.com/rishikakosari</p>
+<p>
+GitHub:
+<a href="https://github.com/rishikakosari" target="_blank">
+github.com/rishikakosari
+</a>
+</p>
 
-<p>LinkedIn: linkedin.com</p>
+<p>
+LinkedIn:
+<a href="#" target="_blank">
+linkedin.com
+</a>
+</p>
 
 </section>
 
 <footer>
 
-<p>© 2026 Rishika</p>
+<p>© 2026 Rishika | Portfolio</p>
 
 </footer>
-
-<script src="script.js"></script>
 
 <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
 <script>
-AOS.init();
+AOS.init({duration:1000});
+
+var typed = new Typed(".typing",{
+strings:["CSE Student","Programmer","Problem Solver","Web Developer"],
+typeSpeed:80,
+backSpeed:50,
+loop:true
+});
 </script>
 
 </body>
