@@ -4,21 +4,47 @@
 <head>
 
 <title>Kosari Rishika Portfolio</title>
+
 <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-<header>
+<nav>
 
-<h1>Kosari Rishika</h1>
+<h2 class="logo">Rishika</h2>
 
-<p>Aspiring Software Developer | AI & ML Enthusiast</p>
+<ul>
 
-<a href="resume.pdf" download class="btn">Download Resume</a>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#achievements">Achievements</a></li>
+<li><a href="#certificates">Certificates</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#contact">Contact</a></li>
 
-</header>
+</ul>
+
+</nav>
+
+
+<section id="home" class="hero">
+
+<h1>Hi, I'm <span>Kosari Rishika</span></h1>
+
+<h2><span id="typing"></span></h2>
+
+<p>
+B.Tech CSE (AI & ML) student passionate about Artificial Intelligence,
+Software Development and building impactful technology solutions.
+</p>
+
+<a href="resume.pdf" class="btn">Download Resume</a>
+
+</section>
+
 
 
 <section id="about">
@@ -26,36 +52,23 @@
 <h2>About Me</h2>
 
 <p>
-Hi, I'm <b>Kosari Rishika</b>, a motivated and enthusiastic B.Tech student
-specializing in <b>Computer Science and Engineering with a focus on
-Artificial Intelligence and Machine Learning</b> at
-<b>Sumathi Reddy Institute of Technology for Women</b>.
-</p>
 
-<p>
-I have a strong interest in <b>Artificial Intelligence, Software Development,
-Data Structures, and Web Development</b>. I enjoy learning new technologies
-and applying them to build practical solutions that solve real-world problems.
-</p>
+I am Kosari Rishika, a motivated B.Tech student specializing in 
+Computer Science and Engineering with Artificial Intelligence and 
+Machine Learning at Sumathi Reddy Institute of Technology for Women.
 
-<p>
-I have experience with programming languages such as
-<b>C, Java, Python, and JavaScript</b>, along with web technologies like
-<b>HTML, CSS, and SQL</b>. I continuously improve my technical skills
-through coding practice and technical certifications.
-</p>
+I have strong interest in Artificial Intelligence, Software Development,
+Data Structures and Web Development. I enjoy exploring modern technologies
+and applying them to solve real world problems.
 
-<p>
-I have also completed certifications from platforms like
-<b>IBM, Cisco, Infosys Springboard, and TATA Forage</b>,
-which helped me gain practical exposure to technologies like
-Artificial Intelligence, Cybersecurity, and Networking.
-</p>
+My academic journey has helped me build strong programming
+and analytical skills. I continuously improve my knowledge through
+coding practice, certifications and technical learning programs.
 
-<p>
-My goal is to become a <b>Software Developer or Software Engineer</b>
-and contribute to building innovative and impactful technology solutions
-while continuously learning and growing as a professional.
+My goal is to become a Software Developer or Software Engineer
+and contribute to building innovative and impactful technology
+solutions while continuously learning and growing as a professional.
+
 </p>
 
 </section>
@@ -66,18 +79,39 @@ while continuously learning and growing as a professional.
 
 <h2>Skills & Technologies</h2>
 
-<ul>
+<div class="grid">
 
-<li>C</li>
-<li>Java</li>
-<li>Python</li>
-<li>HTML</li>
-<li>CSS</li>
-<li>JavaScript</li>
-<li>SQL</li>
-<li>MySQL</li>
+<div class="card">
+<h3>Programming</h3>
+<p>C, Java, Python</p>
+</div>
 
-</ul>
+<div class="card">
+<h3>Web Technologies</h3>
+<p>HTML, CSS, JavaScript</p>
+</div>
+
+<div class="card">
+<h3>Database</h3>
+<p>SQL, MySQL</p>
+</div>
+
+<div class="card">
+<h3>Frameworks</h3>
+<p>Bootstrap, React (basic)</p>
+</div>
+
+<div class="card">
+<h3>Tools</h3>
+<p>Git, GitHub, VS Code, MySQL Workbench</p>
+</div>
+
+<div class="card">
+<h3>Concepts</h3>
+<p>Data Structures, Problem Solving</p>
+</div>
+
+</div>
 
 </section>
 
@@ -89,55 +123,12 @@ while continuously learning and growing as a professional.
 
 <ul>
 
-<li>HackerRank Certificate of Accomplishment</li>
-<li>Solved multiple programming challenges on HackerRank</li>
 <li>EAMCET Rank : 16504</li>
 <li>JEE Main Rank : 66982</li>
+<li>HackerRank Certificate of Accomplishment</li>
+<li>Solved multiple coding challenges on HackerRank</li>
 
 </ul>
-
-</section>
-
-
-
-<section id="projects">
-
-<h2>Projects</h2>
-
-<div class="card">
-
-<h3>AI Resume Analyzer</h3>
-
-<p>
-A web application that analyzes resumes using Artificial Intelligence
-and suggests improvements for skills and job readiness.
-</p>
-
-</div>
-
-
-<div class="card">
-
-<h3>Cybersecurity Log Analyzer</h3>
-
-<p>
-A Python-based tool that analyzes system logs and detects
-suspicious activities for improving cybersecurity monitoring.
-</p>
-
-</div>
-
-
-<div class="card">
-
-<h3>Personal Portfolio Website</h3>
-
-<p>
-A responsive portfolio website built using HTML and CSS
-to showcase my skills, projects, achievements and certificates.
-</p>
-
-</div>
 
 </section>
 
@@ -147,38 +138,32 @@ to showcase my skills, projects, achievements and certificates.
 
 <h2>Certificates</h2>
 
+<div class="grid">
+
 <div class="card">
 Cybersecurity Analyst Job Simulation – TATA
-<br>
-<a href="certificates/tata-cybersecurity.pdf" target="_blank">View Certificate</a>
 </div>
-
-
-<div class="card">
-Getting Started with Artificial Intelligence – IBM
-<br>
-<a href="certificates/ibm-ai.pdf" target="_blank">View Certificate</a>
-</div>
-
 
 <div class="card">
 Generative AI for All – Infosys Springboard
-<br>
-<a href="certificates/infosys-genai.pdf" target="_blank">View Certificate</a>
 </div>
 
-
 <div class="card">
-CCNA: Introduction to Networks – Cisco
-<br>
-<a href="certificates/cisco-ccna.pdf" target="_blank">View Certificate</a>
+Getting Started with Artificial Intelligence – IBM
 </div>
 
+<div class="card">
+Introduction to Cybersecurity – Cisco
+</div>
 
 <div class="card">
-Conceptio – Manipal Entrepreneurship Summit
-<br>
-<a href="certificates/mit-manipal.pdf" target="_blank">View Certificate</a>
+Participation Certificate – ICAT
+</div>
+
+<div class="card">
+Participation – MIT Manipal (Unstop)
+</div>
+
 </div>
 
 </section>
@@ -189,40 +174,47 @@ Conceptio – Manipal Entrepreneurship Summit
 
 <h2>Education</h2>
 
+<div class="grid">
+
+<div class="card">
+
+<h3>B.Tech CSE (AI & ML)</h3>
+
 <p>
-<b>B.Tech – CSE (AI & ML)</b><br>
 Sumathi Reddy Institute of Technology for Women<br>
 2023 – 2027<br>
 CGPA : 8.02
 </p>
 
-<p>
-<b>Intermediate</b><br>
-SR Junior College, Waddepally, Hanumakonda<br>
-Percentage : 95.3%
-</p>
+</div>
+
+
+<div class="card">
+
+<h3>Intermediate</h3>
 
 <p>
-<b>10th</b><br>
-SR Digi School, Parkal, Hanumakonda<br>
+SR Junior College<br>
+Waddepally, Hanumakonda<br>
+95.3%
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>10th</h3>
+
+<p>
+SR Digi School<br>
+Parkal, Hanumakonda<br>
 GPA : 10.0
 </p>
 
-</section>
+</div>
 
-
-
-<section id="opportunities">
-
-<h2>Looking for Opportunities</h2>
-
-<p>
-I am currently looking for opportunities as a
-<b>Software Developer</b> or <b>Software Engineer</b>
-where I can apply my knowledge in programming,
-artificial intelligence and software development
-to build impactful technology solutions.
-</p>
+</div>
 
 </section>
 
@@ -237,17 +229,11 @@ to build impactful technology solutions.
 <p>Phone : 7416705084</p>
 
 <p>
-LinkedIn :
-<a href="https://www.linkedin.com/in/kosari-rishika-113b1937b/" target="_blank">
-View Profile
-</a>
+<a href="https://github.com/rishikakosari">GitHub</a>
 </p>
 
 <p>
-GitHub :
-<a href="https://github.com/rishikakosari" target="_blank">
-View GitHub
-</a>
+<a href="https://www.linkedin.com/in/kosari-rishika-113b1937b/">LinkedIn</a>
 </p>
 
 <p>Location : Hanumakonda, Telangana, India</p>
@@ -255,13 +241,7 @@ View GitHub
 </section>
 
 
-
-<footer>
-
-<p>© 2026 Kosari Rishika</p>
-
-</footer>
-
+<script src="script.js"></script>
 
 </body>
 
