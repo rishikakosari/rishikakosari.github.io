@@ -6,13 +6,14 @@ font-family:Segoe UI;
 }
 
 body{
-background:linear-gradient(135deg,#141e30,#243b55);
+background:linear-gradient(135deg,#5f2c82,#8a2be2,#4b0082);
 color:white;
 }
 
 html{
 scroll-behavior:smooth;
 }
+
 
 /* HEADER */
 
@@ -24,13 +25,14 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 padding:20px 10%;
-background:rgba(0,0,0,0.6);
+background:rgba(0,0,0,0.3);
 backdrop-filter:blur(10px);
 z-index:1000;
 }
 
 .logo{
-color:#ff4ecd;
+color:#ffffff;
+font-size:24px;
 }
 
 nav a{
@@ -40,8 +42,9 @@ color:white;
 }
 
 nav a:hover{
-color:#ff4ecd;
+color:#ffd6ff;
 }
+
 
 /* HOME */
 
@@ -51,7 +54,7 @@ display:flex;
 align-items:center;
 justify-content:center;
 text-align:center;
-background:linear-gradient(135deg,#ff4ecd,#5f2c82,#24c6dc);
+background:linear-gradient(135deg,#8e2de2,#4a00e0,#6a11cb);
 background-size:300% 300%;
 animation:gradientMove 10s ease infinite;
 }
@@ -74,7 +77,7 @@ color:#ffe066;
 display:inline-block;
 margin:10px;
 padding:12px 25px;
-background:linear-gradient(45deg,#ff4ecd,#24c6dc);
+background:linear-gradient(45deg,#ff7af6,#9f6eff);
 color:white;
 border-radius:30px;
 text-decoration:none;
@@ -83,8 +86,9 @@ transition:0.3s;
 
 .btn:hover{
 transform:scale(1.1);
-box-shadow:0 0 15px #ff4ecd;
+box-shadow:0 0 15px #ff7af6;
 }
+
 
 /* SECTIONS */
 
@@ -94,19 +98,21 @@ text-align:center;
 }
 
 h2{
-color:#ff4ecd;
+color:#ffd6ff;
 margin-bottom:40px;
 }
+
 
 /* EDUCATION */
 
 .edu-card{
-background:#1b1b2f;
+background:rgba(255,255,255,0.1);
 padding:20px;
 margin:15px auto;
 max-width:500px;
 border-radius:10px;
 }
+
 
 /* SKILLS */
 
@@ -118,17 +124,17 @@ margin-bottom:30px;
 }
 
 .skill-card{
-background:#1b1b2f;
+background:rgba(255,255,255,0.1);
 padding:15px;
 border-radius:10px;
-border:1px solid #ff4ecd;
 transition:0.3s;
 }
 
 .skill-card:hover{
-background:#ff4ecd;
+background:#ffffff;
 color:black;
 }
+
 
 /* PROJECTS */
 
@@ -140,7 +146,7 @@ gap:25px;
 }
 
 .project-card{
-background:#1b1b2f;
+background:rgba(255,255,255,0.1);
 padding:20px;
 border-radius:10px;
 width:250px;
@@ -152,8 +158,9 @@ transform:translateY(-10px);
 }
 
 .project-card a{
-color:#ff4ecd;
+color:#ffd6ff;
 }
+
 
 /* CERTIFICATES */
 
@@ -165,8 +172,9 @@ margin:auto;
 
 .cert-list li{
 padding:10px;
-border-bottom:1px solid #444;
+border-bottom:1px solid rgba(255,255,255,0.2);
 }
+
 
 /* RESUME */
 
@@ -178,17 +186,22 @@ border-radius:10px;
 margin-bottom:20px;
 }
 
+
 /* CONTACT */
 
 #contact a{
-color:#ff4ecd;
+color:#ffd6ff;
 }
+
+
+/* FOOTER */
 
 footer{
 padding:20px;
-background:black;
 text-align:center;
+background:rgba(0,0,0,0.4);
 }
+
 
 /* ANIMATION */
 
