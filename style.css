@@ -46,7 +46,7 @@ nav a:hover{
 color:#ff4ecd;
 }
 
-/* HERO */
+/* HOME */
 
 .home{
 height:100vh;
@@ -111,26 +111,29 @@ color:#ff4ecd;
 
 /* SKILLS */
 
-.skills{
-max-width:600px;
+.skills-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+gap:20px;
+max-width:700px;
 margin:auto;
 }
 
-.skill{
-margin:20px 0;
-text-align:left;
-}
-
-.bar{
-background:#333;
-height:8px;
+.skill-card{
+background:#1b1b2f;
+padding:20px;
 border-radius:10px;
-overflow:hidden;
+text-align:center;
+font-weight:600;
+transition:0.4s;
+border:1px solid #ff4ecd;
 }
 
-.bar div{
-height:100%;
+.skill-card:hover{
+transform:translateY(-8px);
 background:#ff4ecd;
+color:black;
+box-shadow:0 10px 25px rgba(255,78,205,0.5);
 }
 
 /* PROJECTS */
@@ -153,6 +156,11 @@ transition:0.4s;
 .project-card:hover{
 transform:translateY(-10px);
 box-shadow:0 10px 30px rgba(0,0,0,0.6);
+}
+
+.project-card a{
+color:#ff4ecd;
+text-decoration:none;
 }
 
 /* CONTACT */
