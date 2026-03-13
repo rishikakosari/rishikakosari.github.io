@@ -1,175 +1,224 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 
-<title>Kosari Rishika Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Kosari Rishika | Portfolio</title>
 
 <link rel="stylesheet" href="style.css">
+
+<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
 </head>
 
 <body>
 
-<nav>
+<header>
 
 <h2 class="logo">Rishika</h2>
 
-<ul>
-
-<li><a href="#home">Home</a></li>
-<li><a href="#about">About</a></li>
-<li><a href="#skills">Skills</a></li>
-<li><a href="#certificates">Certificates</a></li>
-<li><a href="#education">Education</a></li>
-<li><a href="#contact">Contact</a></li>
-
-</ul>
-
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#education">Education</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#certifications">Certificates</a>
+<a href="#resume">Resume</a>
+<a href="#contact">Contact</a>
 </nav>
 
+</header>
 
-<section id="home" class="hero">
+<!-- HOME -->
 
-<h1>Hi I'm <span>Kosari Rishika</span></h1>
+<section id="home" class="home">
 
-<h2 class="typing"><span id="typing"></span></h2>
+<div class="home-content">
+
+<h1>Hello, I'm <span>Kosari Rishika</span></h1>
+
+<h3>I'm a <span class="typing"></span></h3>
 
 <p>
-B.Tech CSE (AI & ML) student passionate about AI,
-Software Development and Web Development.
+Passionate Computer Science student specializing in Artificial Intelligence 
+and Machine Learning. I enjoy solving problems, building applications and 
+creating technology that makes a real impact.
 </p>
+
+<div class="buttons">
+
+<a href="Rishika_Resume.pdf" target="_blank" class="btn">View Resume</a>
+
+<a href="mailto:rishikakosari@gmail.com" class="btn">Email Me</a>
+
+</div>
+
+</div>
 
 </section>
 
+<!-- ABOUT -->
 
-
-<section class="hidden" id="about">
+<section id="about" data-aos="fade-up">
 
 <h2>About Me</h2>
 
 <p>
 
-I am Kosari Rishika, currently pursuing B.Tech in Computer Science
-Engineering with specialization in Artificial Intelligence and Machine Learning
-at Sumathi Reddy Institute of Technology for Women.
+My name is <b>Kosari Rishika</b>. I am currently pursuing 
+<b>B.Tech in Computer Science Engineering (AI & ML)</b> 
+at <b>Sumathi Reddy Institute of Technology for Women</b>.
 
-I am passionate about Artificial Intelligence, Software Development,
-Data Structures and Web Development.
+I am passionate about building intelligent systems and 
+developing software that solves real-world problems.
 
-I enjoy learning new technologies and building solutions that can
-solve real world problems.
+My key areas of interest include Artificial Intelligence,
+Software Development, Data Structures and Web Development.
 
-My goal is to become a Software Developer or Software Engineer
-and build impactful technology solutions that make a difference.
+I actively practice coding and problem solving to improve my 
+technical abilities and aim to build scalable software solutions.
+
+My career goal is to become a skilled 
+<b>Software Developer / Software Engineer</b> and contribute 
+to impactful technology innovations.
 
 </p>
 
 </section>
 
+<!-- EDUCATION -->
 
-
-<section class="hidden" id="skills">
-
-<h2>Skills</h2>
-
-<div class="grid">
-
-<div class="card">C</div>
-<div class="card">Java</div>
-<div class="card">Python</div>
-<div class="card">HTML</div>
-<div class="card">CSS</div>
-<div class="card">JavaScript</div>
-<div class="card">SQL</div>
-<div class="card">MySQL</div>
-<div class="card">Git</div>
-<div class="card">GitHub</div>
-
-</div>
-
-</section>
-
-
-
-<section class="hidden" id="certificates">
-
-<h2>Certificates</h2>
-
-<div class="grid">
-
-<a href="certificates/tata.pdf" target="_blank" class="card">
-Cybersecurity Analyst Job Simulation – TATA
-</a>
-
-<a href="certificates/infosys.pdf" target="_blank" class="card">
-Generative AI for All – Infosys Springboard
-</a>
-
-<a href="certificates/ibm.pdf" target="_blank" class="card">
-Getting Started with Artificial Intelligence – IBM
-</a>
-
-<a href="certificates/cisco.pdf" target="_blank" class="card">
-Introduction to Cybersecurity – Cisco
-</a>
-
-<a href="certificates/icat.pdf" target="_blank" class="card">
-Participation Certificate – ICAT
-</a>
-
-<a href="certificates/hackerrank.pdf" target="_blank" class="card">
-Certificate of Accomplishment – HackerRank
-</a>
-
-<a href="certificates/manipal.pdf" target="_blank" class="card">
-Participation – MIT Manipal (Unstop)
-</a>
-
-</div>
-
-</section>
-
-
-
-<section class="hidden" id="education">
+<section id="education" data-aos="fade-up">
 
 <h2>Education</h2>
 
-<div class="grid">
+<div class="edu-card">
 
-<div class="card">
-
-<h3>B.Tech</h3>
-<p>
-Sumathi Reddy Institute of Technology for Women
-<br>
-2023 – 2027
-<br>
-CGPA : 8.02
-</p>
+<h3>B.Tech – Computer Science (AI & ML)</h3>
+<p>Sumathi Reddy Institute of Technology for Women</p>
+<p>2023 – 2027</p>
+<p>CGPA: 8.02</p>
 
 </div>
 
-<div class="card">
+<div class="edu-card">
 
-<h3>12th</h3>
-<p>
-SR Junior College
-<br>
-95.3%
-</p>
+<h3>Intermediate (12th)</h3>
+<p>SR Junior College, Waddepally, Hanumakonda</p>
+<p>Percentage: 95.3%</p>
 
 </div>
 
-<div class="card">
+<div class="edu-card">
 
-<h3>10th</h3>
-<p>
-SR Digi School
-<br>
-10.0 GPA
-</p>
+<h3>10th Standard</h3>
+<p>SR Digi School, Parkal, Hanumakonda</p>
+<p>GPA: 10.0</p>
+
+</div>
+
+</section>
+
+<!-- SKILLS -->
+
+<section id="skills" data-aos="fade-up">
+
+<h2>Skills</h2>
+
+<div class="skills-section">
+
+<h3>Programming Languages</h3>
+
+<div class="skills-grid">
+<div class="skill-card">C</div>
+<div class="skill-card">Java</div>
+<div class="skill-card">Python</div>
+<div class="skill-card">HTML</div>
+<div class="skill-card">CSS</div>
+<div class="skill-card">JavaScript</div>
+<div class="skill-card">SQL</div>
+<div class="skill-card">MySQL</div>
+</div>
+
+<h3>Frameworks</h3>
+
+<div class="skills-grid">
+<div class="skill-card">Flask</div>
+<div class="skill-card">Django</div>
+<div class="skill-card">Bootstrap</div>
+</div>
+
+<h3>Tools</h3>
+
+<div class="skills-grid">
+<div class="skill-card">Git</div>
+<div class="skill-card">GitHub</div>
+<div class="skill-card">VS Code</div>
+<div class="skill-card">Jupyter Notebook</div>
+</div>
+
+<h3>Databases</h3>
+
+<div class="skills-grid">
+<div class="skill-card">MySQL</div>
+<div class="skill-card">MongoDB</div>
+</div>
+
+</div>
+
+</section>
+
+<!-- PROJECTS -->
+
+<section id="projects">
+
+<h2 data-aos="fade-up">Projects</h2>
+
+<div class="projects">
+
+<div class="project-card" data-aos="zoom-in">
+
+<h3>
+<a href="https://github.com/rishikakosari/E-commerce-web-application" target="_blank">
+E-Commerce Web Application
+</a>
+</h3>
+
+<p>Online platform for browsing products and managing orders.</p>
+
+</div>
+
+<div class="project-card" data-aos="zoom-in">
+
+<h3>
+<a href="https://github.com/rishikakosari/Hotel-Management-System" target="_blank">
+Hotel Management System
+</a>
+</h3>
+
+<p>System for managing hotel bookings and customer details.</p>
+
+</div>
+
+<div class="project-card" data-aos="zoom-in">
+
+<h3>Website for Deaf and Mute People</h3>
+
+<p>Platform designed to support communication accessibility.</p>
+
+</div>
+
+<div class="project-card" data-aos="zoom-in">
+
+<h3>Ride Share Application</h3>
+
+<p>Application connecting drivers and riders for shared travel.</p>
 
 </div>
 
@@ -177,31 +226,95 @@ SR Digi School
 
 </section>
 
+<!-- CERTIFICATIONS -->
 
+<section id="certifications" data-aos="fade-up">
 
-<section class="hidden" id="contact">
+<h2>Certifications</h2>
+
+<ul class="cert-list">
+
+<li>Cybersecurity Analyst Job Simulation – TATA</li>
+<li>Generative AI for All – Infosys SpringBoard</li>
+<li>Getting Started with Artificial Intelligence – IBM</li>
+<li>Introduction to Cybersecurity – Cisco</li>
+<li>Certificate of Accomplishment – HackerRank</li>
+<li>Participation Certificate – ICAT</li>
+<li>Participation – Manipal Institute of Technology (MIT) via Unstop</li>
+
+</ul>
+
+</section>
+
+<!-- ACHIEVEMENTS -->
+
+<section id="achievements" data-aos="fade-up">
+
+<h2>Achievements</h2>
+
+<p>EAMCET Rank: 16504</p>
+<p>JEE Main Rank: 66982</p>
+
+</section>
+
+<!-- RESUME -->
+
+<section id="resume" data-aos="fade-up">
+
+<h2>Resume</h2>
+
+<iframe src="Rishika_Resume.pdf" class="resume-viewer"></iframe>
+
+<a href="Rishika_Resume.pdf" download class="btn">Download Resume</a>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact" data-aos="fade-up">
 
 <h2>Contact</h2>
 
-<p>Email : rishikakosari@gmail.com</p>
+<p>Email: <a href="mailto:rishikakosari@gmail.com">rishikakosari@gmail.com</a></p>
 
-<p>Phone : 7416705084</p>
+<p>Phone: 7416705084</p>
 
-<p>
-<a href="https://github.com/rishikakosari">GitHub</a>
+<p>LinkedIn:
+<a href="https://www.linkedin.com/in/kosari-rishika-113b1937b/" target="_blank">
+linkedin.com/in/kosari-rishika
+</a>
 </p>
 
-<p>
-<a href="https://www.linkedin.com/in/kosari-rishika-113b1937b/">LinkedIn</a>
+<p>GitHub:
+<a href="https://github.com/rishikakosari" target="_blank">
+github.com/rishikakosari
+</a>
 </p>
 
-<p>Location : Hanumakonda, Telangana, India</p>
+<p>Location: Telangana, India</p>
 
 </section>
 
+<footer>
 
+<p>© 2026 Kosari Rishika</p>
 
-<script src="script.js"></script>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+
+AOS.init({duration:1000});
+
+var typed = new Typed(".typing",{
+strings:["Software Developer","AI & ML Enthusiast","Programmer","Problem Solver"],
+typeSpeed:80,
+backSpeed:50,
+loop:true
+});
+
+</script>
 
 </body>
 
