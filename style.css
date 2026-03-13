@@ -33,13 +33,13 @@ text-decoration:none;
 
 .hero{
 
-height:90vh;
+height:100vh;
 display:flex;
 flex-direction:column;
 justify-content:center;
 align-items:center;
-text-align:center;
 background:linear-gradient(135deg,#6366f1,#06b6d4);
+text-align:center;
 
 }
 
@@ -49,32 +49,25 @@ font-size:50px;
 
 }
 
-.hero span{
+.typing{
 
 color:yellow;
-
-}
-
-.btn{
-
-background:white;
-color:black;
-padding:10px 20px;
-text-decoration:none;
-border-radius:5px;
+font-size:30px;
 
 }
 
 section{
 
 padding:80px;
+max-width:1000px;
+margin:auto;
 
 }
 
 .grid{
 
 display:grid;
-grid-template-columns:repeat(3,1fr);
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
 gap:20px;
 
 }
@@ -85,17 +78,28 @@ background:#1e293b;
 padding:20px;
 border-radius:10px;
 transition:0.3s;
+text-align:center;
 
 }
 
 .card:hover{
 
 transform:translateY(-10px);
+background:#334155;
 
 }
 
-ul li{
+.hidden{
 
-margin:10px 0;
+opacity:0;
+transform:translateY(50px);
+transition:all 0.8s;
+
+}
+
+.show{
+
+opacity:1;
+transform:translateY(0);
 
 }
